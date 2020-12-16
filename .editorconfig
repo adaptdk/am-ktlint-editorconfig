@@ -7,6 +7,7 @@ indent_size = 4
 indent_style = space
 insert_final_newline = false
 tab_width = 4
+max_line_length=500
 ij_continuation_indent_size = 8
 ij_formatter_off_tag = @formatter:off
 ij_formatter_on_tag = @formatter:on
@@ -19,7 +20,6 @@ ij_wrap_on_typing = false
 
 # possible values: number (e.g. 120) (package name, imports & comments are ignored), "off"
 # it's automatically set to 100 on `ktlint --android ...` (per Android Kotlin Style Guide)
-max_line_length=off
 disabled_rules=no-max_line_length,comment-spacing,no-wildcard-imports
 
 ij_continuation_indent_size = 4
