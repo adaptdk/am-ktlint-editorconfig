@@ -1,6 +1,6 @@
 root = true
 
-[*]
+[{*.gradle.kts,*.kt,*.kts,*.main.kts}]
 charset = utf-8
 end_of_line = lf
 indent_size = 4
@@ -16,7 +16,6 @@ ij_smart_tabs = false
 ij_visual_guides = 100,200
 ij_wrap_on_typing = false
 
-[{*.gradle.kts,*.kt,*.kts,*.main.kts}]
 
 # possible values: number (e.g. 120) (package name, imports & comments are ignored), "off"
 # it's automatically set to 100 on `ktlint --android ...` (per Android Kotlin Style Guide)
